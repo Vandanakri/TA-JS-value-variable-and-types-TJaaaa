@@ -132,6 +132,7 @@ Implement the condition give below using`if..else` and`switch` statement.
   - `marks > 0` alert`"Grade D"`
 
 */
+// if..else
 
 let marks = prompt("Enter marks");
 
@@ -152,6 +153,35 @@ if(marks > 100) {
   alert("Grade D");
   
 }
+// switch
+
+let marks = prompt("Enter marks");
+switch(marks) {
+
+  case marks > 100 :
+    alert("Marks can't be greater than 100");
+    break;
+
+    case marks > 80 && marks <= 100 :
+      alert("Grade A");
+      break;
+    
+      case marks > 50 && marks <= 80 :
+        alert("Grade B");
+        break;
+
+        case marks > 30 && marks <= 50 :
+          alert("Grade c");   
+          break;
+
+          case marks >= 0 :
+            alert("Grade D");
+            break;
+            default:
+              alert("invalid")
+
+}
+
 
 
 /* 9. Weather app
