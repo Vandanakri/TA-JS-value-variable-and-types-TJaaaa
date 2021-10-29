@@ -10,17 +10,44 @@
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
 
+
+
+
 // Loops
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
+for (let j = 0; j <= 10; j = j + 2) console.log(j);
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 
+for(let i = 9; i >= 1 ; i = i - 2) {
+  console.log(i);
+}
+
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
 
+let str = "";
+let i = 5;
+while (i >= 0); {
+  str = str + i ;
+  i = i - 1 ;
+}
+console.log(str);
+
+
+
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+
+
+let str = "";
+let i = 10;
+while (i >= 0); {
+  str = str + i ;
+  i = i - 2 ;
+}
+console.log(str);
+
 
 // Comparisoin
 
@@ -36,3 +63,5 @@ Example:
 "hello", -21; // false
 
 */
+
+
