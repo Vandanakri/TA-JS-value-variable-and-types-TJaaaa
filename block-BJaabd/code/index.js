@@ -12,6 +12,7 @@ Write a program that asks the user his/her age and check for the following condi
 */
 
 
+
 let age = +prompt("enter your age");
 if(age>12 && age<55){
   alert("You can participate in the marathon");
@@ -28,6 +29,7 @@ if(age>12 && age<55){
 
 
 
+
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -38,6 +40,8 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
+
+
 
 let n = +prompt("enter a number");
 let letter = "e";
@@ -66,6 +70,7 @@ Program to calculate the sum of first n natural numbers(1,2,3...n are known as n
 👇
 */
 // [Your code goes here]
+
 
 
 let n = +prompt("Enter the number");
@@ -97,6 +102,8 @@ Take a number value from user and alert the message if it matches the conditions
 
 */
 // [Your code goes here]
+
+
 
 let number = +prompt("Enter the number");
 switch(number) {
@@ -164,6 +171,8 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 
 // [Your code goes here]
 
+
+
 let marks = +prompt("Enter the number");
 switch(true) {
   case marks > 90:
@@ -208,6 +217,7 @@ switch(true) {
 // [your code goes here]
 
 
+
 let num1 = +prompt("Enter the number");
 let num2 = +prompt("Enter the number");
 
@@ -224,6 +234,7 @@ if(num1 > num2) {
 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 */
 // [Your code goes here]
+
 
 
 let number1 = +prompt("enter the number");
@@ -251,6 +262,8 @@ if(sum > 0) {
 */
 
 // [Your code goes here]
+
+
 
 let number1 = +prompt("enter the number");
 let number2 = +prompt("enter the number");
