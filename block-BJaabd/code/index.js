@@ -270,6 +270,8 @@ let number2 = +prompt("enter the number");
 let sign = prompt("enter the number");
 
 if(sign == "+") {
+
+
   alert(number1 + number2);
 
 } else if(sign == "-" && number1 < number2) {
