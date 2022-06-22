@@ -25,11 +25,13 @@ alert("I\'m " + firstName + " " + lastName + " of Winterfell ");
   - Alert the message `I'm Arya Stark of Winterfell` using the variable name firstName and lastName.
 */
 
-let amount = 200;
-const taxPercent = 10;
+
 
 alert(`I am ${username} and  my bio is ${bio}`);
 alert(`I'm ${firstName}  ${lastName}  of Winterfell`);
+
+let amount = 200;
+const taxPercent = 10;
 
 /* Use string template literal:
   - Alert a message saying `The total amount is [amount]
@@ -37,8 +39,8 @@ alert(`I'm ${firstName}  ${lastName}  of Winterfell`);
   `
   - Above message should be in two lines
 */
-alert(`The total amount is ${amount} \n the tax amount is ${amount} * ${taxPercent} / 100`)
 
+alert(`The total amount is ${amount} \n the tax amount is ${(amount * taxPercent) / 100}`);
 
 /* Use double quote and escape character:
   - Alert a message saying `The total amount is [amount]
