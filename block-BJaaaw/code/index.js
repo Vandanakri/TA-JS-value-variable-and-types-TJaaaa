@@ -61,11 +61,11 @@ if(houseName === "stark") {
 
 // 5. Convert the above code using`?` terniary operator
 
-let houseName = prompt("enter a house name");
-houseName === "stark" ? 
+let houseName1 = prompt("enter a house name");
+houseName1 === "stark" ? 
   alert(`Winter is coming`)
   :
- houseName === "lannister" ?
+ houseName1 === "lannister" ?
   alert(`A lannister always pays his debt`)
   :
   alert(`All men must die`);
@@ -113,10 +113,10 @@ if(salery <= 20000) {
   alert(`your in -hand amount is ${(salery-(salery * 10 / 100))}`);
 
 } else if (salery <= 40000) {
-  alert(`your in -hand amount is ${(salery-(salery * 10 / 100))}`);
+  alert(`your in -hand amount is ${(salery-(salery * 20 / 100))}`);
 
-} else if (salery <= 50000) {
-  alert(`your in -hand amount is ${(salery-(salery * 10 / 100))}`);
+} else if (salery >= 50000) {
+  alert(`your in -hand amount is ${(salery-(salery * 30 / 100))}`);
   
 }
 
@@ -134,29 +134,29 @@ Implement the condition give below using`if..else` and`switch` statement.
 */
 // if..else
 
-let marks = prompt("Enter marks");
+let Marks = prompt("Enter marks");
 
-if(marks > 100) {
+if(Marks > 100) {
 
  alert("Marks can't be greater than 100");
 
-} else if(marks > 80 && marks <= 100) {
+} else if(Marks > 80 && Marks <= 100) {
   alert("Grade A");
 
-} else if(marks > 50 && marks <= 80) {
+} else if(Marks > 50 && Marks <= 80) {
   alert("Grade B");
 
-} else if(marks > 30 && marks <= 50) {
+} else if(Marks > 30 && Marks <= 50) {
   alert("Grade c");
   
-} else if(marks >= 0) {
+} else if(Marks >= 0) {
   alert("Grade D");
   
 }
 // switch
 
 let marks = prompt("Enter marks");
-switch(marks) {
+switch(true) {
 
   case marks > 100 :
     alert("Marks can't be greater than 100");
@@ -216,3 +216,9 @@ alert("Get your sweeter on");
   alert("Not a valid input");
 }
 
+
+
+
+
+
+ 
